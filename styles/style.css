@@ -1,0 +1,198 @@
+body h1,h2,h3,h4,h5,h6{
+    font-family: 'Asap', sans-serif;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-weight:normal;
+    font-size: 28px;
+}
+.div{
+    display: block;
+}
+
+#home{
+    background: url(../images/whatwedo.jpg) no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size:cover;
+    min-height: 650px;
+    opacity: 0.75;
+    padding: 1px 0;
+}
+#packages{
+    background: url(../images/gallery.jpg) no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size:cover;
+    min-height: 650px;
+    opacity: 0.75;
+    padding: 4em 0;
+}
+#schedule{
+    background: url(../images/shedule.jpg) no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size:cover;
+    min-height: 650px;
+    opacity: 0.75;
+    padding: 4em 0;
+}
+#whatWeDo{
+    background: url(../images/header.jpg) no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size:cover;
+    min-height: 650px;
+    opacity: 0.75;
+    padding:  4em 0;
+}
+
+.about p{
+    text-align: left;
+    padding-left:5px;
+    padding-right: 5px;
+    padding-bottom: 6px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.about h2{
+    color: #42ebf4;
+    font-size: 2.5em;
+}
+
+#members{
+    background: url(../images/afternoon_workout_2.jpg) no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size:cover;
+    min-height: 650px;
+    opacity: 0.75;
+    padding:  4em 0;
+}
+
+.mem h2{
+   font-size: 2em;
+}
+.memTable{
+    border-collapse: collapse;
+    width: 95%;
+    border :1px solid #ddd;
+    color: #42ebf4;
+}
+.memTable th{
+    padding: 8px;
+    text-align: center;
+    border :1px solid #ddd;
+}
+.memTable td{
+     padding: 8px;
+    vertical-align: center;
+     border-bottom: 1px solid #ddd;
+    border :1px solid #ddd;
+}
+#contact{
+    background: url(../images/contact.jpg) no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size:cover;
+    min-height: 650px;
+    opacity: 0.75;
+    padding:  4em 0;
+}
+
+.footer p{
+    text-align: center;
+    padding-left:5px;
+    padding-right: 5px;
+    padding-bottom: 6px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.footer h2{
+    color: #fff;
+}
+
+.footer input[type=text],select, textArea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #00a78e;
+    background-color: transparent;
+}
+
+input[type=submit]{
+    background-color: transparent;
+    color: #fff;
+    padding: 12px 20px;
+    border: 2px solid #4caf50;
+    border-radius: 4px;
+    cursor: pointer;   
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.copy{
+    text-align: center;
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 1.9em;
+    margin: 1em 0;
+}
+
+.copy span{
+    color: #00a78e;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+#banner{
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 4em;
+    height:auto;
+    z-index: -1;
+    color: #fff;
+    text-align: justify;
+    background-color: #000;
+    opacity: 0.8;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+
+#banner h3{
+    text-align: center;
+    font-size: 2em;
+}

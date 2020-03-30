@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 5, 2017, 7:45:35 AM
+    Author     : PASINDHU
+*/
+#back{
+     background: url(../images/contact.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size:cover;
+    min-height: 650px;
+    z-index: -1;
+    opacity: 0.75;
+    
+}
+
+.input[type=text],select, textArea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #00a78e;
+    background-color: transparent;
+}
+
+input[type=submit]{
+    background-color: transparent;
+    color: #fff;
+    padding: 12px 20px;
+    border: 2px solid #4caf50;
+    border-radius: 4px;
+    cursor: pointer;   
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
